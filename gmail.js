@@ -289,7 +289,7 @@ var Gmail = function(localJQuery) {
     }
 
     return hash;
-  }
+  };
 
 
   api.check.is_priority_inbox = function() {
