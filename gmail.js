@@ -38,8 +38,8 @@ var Gmail = function(localJQuery) {
              ip : data[3],
              mac_address : data[9],
              time_relative : data[10]
-           }
-  }
+           };
+  };
 
 
   api.get.loggedin_accounts = function() {
